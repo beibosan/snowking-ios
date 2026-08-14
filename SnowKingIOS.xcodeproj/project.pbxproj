@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000201 /* AppDelegate.swift */; };
+		100000000000000000000102 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000202 /* Theme.swift */; };
+		100000000000000000000103 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000203 /* Account.swift */; };
+		100000000000000000000104 /* AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000204 /* AccountStore.swift */; };
+		100000000000000000000105 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000205 /* SettingsStore.swift */; };
+		100000000000000000000106 /* ScriptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000206 /* ScriptStore.swift */; };
+		100000000000000000000107 /* ScriptLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000207 /* ScriptLoader.swift */; };
+		100000000000000000000108 /* BridgeScriptFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000208 /* BridgeScriptFactory.swift */; };
+		100000000000000000000109 /* WebViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000209 /* WebViewBridge.swift */; };
+		10000000000000000000010A /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020A /* AccountListViewController.swift */; };
+		10000000000000000000010B /* GameWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020B /* GameWebViewController.swift */; };
+		10000000000000000000010C /* MultiWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020C /* MultiWebViewController.swift */; };
+		10000000000000000000010D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020D /* SettingsViewController.swift */; };
+		10000000000000000000010E /* www in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020E /* www */; };
+		10000000000000000000010F /* builtin in Resources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000020F /* builtin */; };
+		100000000000000000000110 /* AppIconSource.png in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000210 /* AppIconSource.png */; };
+		100000000000000000000111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000213 /* Assets.xcassets */; };
+		100000000000000000000112 /* GameData in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000214 /* GameData */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		100000000000000000000202 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		100000000000000000000203 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		100000000000000000000204 /* AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStore.swift; sourceTree = "<group>"; };
+		100000000000000000000205 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		100000000000000000000206 /* ScriptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptStore.swift; sourceTree = "<group>"; };
+		100000000000000000000207 /* ScriptLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptLoader.swift; sourceTree = "<group>"; };
+		100000000000000000000208 /* BridgeScriptFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeScriptFactory.swift; sourceTree = "<group>"; };
+		100000000000000000000209 /* WebViewBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewBridge.swift; sourceTree = "<group>"; };
+		10000000000000000000020A /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
+		10000000000000000000020B /* GameWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWebViewController.swift; sourceTree = "<group>"; };
+		10000000000000000000020C /* MultiWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWebViewController.swift; sourceTree = "<group>"; };
+		10000000000000000000020D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		10000000000000000000020E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		10000000000000000000020F /* builtin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = builtin; sourceTree = "<group>"; };
+		100000000000000000000210 /* AppIconSource.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIconSource.png; sourceTree = "<group>"; };
+		100000000000000000000211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000212 /* SnowKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000214 /* GameData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameData; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000401 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000402 /* SnowKingIOS */,
+				100000000000000000000403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000402 /* SnowKingIOS */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000211 /* Info.plist */,
+				100000000000000000000201 /* AppDelegate.swift */,
+				100000000000000000000202 /* Theme.swift */,
+				100000000000000000000203 /* Account.swift */,
+				100000000000000000000204 /* AccountStore.swift */,
+				100000000000000000000205 /* SettingsStore.swift */,
+				100000000000000000000206 /* ScriptStore.swift */,
+				100000000000000000000207 /* ScriptLoader.swift */,
+				100000000000000000000208 /* BridgeScriptFactory.swift */,
+				100000000000000000000209 /* WebViewBridge.swift */,
+				10000000000000000000020A /* AccountListViewController.swift */,
+				10000000000000000000020B /* GameWebViewController.swift */,
+				10000000000000000000020C /* MultiWebViewController.swift */,
+				10000000000000000000020D /* SettingsViewController.swift */,
+				100000000000000000000214 /* GameData */,
+				10000000000000000000020E /* www */,
+				10000000000000000000020F /* builtin */,
+				100000000000000000000210 /* AppIconSource.png */,
+				100000000000000000000213 /* Assets.xcassets */,
+			);
+			path = SnowKingIOS;
+			sourceTree = "<group>";
+		};
+		100000000000000000000403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000212 /* SnowKing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000501 /* SnowKing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000901 /* Build configuration list for PBXNativeTarget "SnowKing" */;
+			buildPhases = (
+				100000000000000000000601 /* Sources */,
+				100000000000000000000301 /* Frameworks */,
+				100000000000000000000701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowKing;
+			productName = SnowKing;
+			productReference = 100000000000000000000212 /* SnowKing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					100000000000000000000501 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000902 /* Build configuration list for PBXProject "SnowKingIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000401;
+			productRefGroup = 100000000000000000000403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000501 /* SnowKing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000112 /* GameData in Resources */,
+				10000000000000000000010E /* www in Resources */,
+				10000000000000000000010F /* builtin in Resources */,
+				100000000000000000000110 /* AppIconSource.png in Resources */,
+				100000000000000000000111 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000101 /* AppDelegate.swift in Sources */,
+				100000000000000000000102 /* Theme.swift in Sources */,
+				100000000000000000000103 /* Account.swift in Sources */,
+				100000000000000000000104 /* AccountStore.swift in Sources */,
+				100000000000000000000105 /* SettingsStore.swift in Sources */,
+				100000000000000000000106 /* ScriptStore.swift in Sources */,
+				100000000000000000000107 /* ScriptLoader.swift in Sources */,
+				100000000000000000000108 /* BridgeScriptFactory.swift in Sources */,
+				100000000000000000000109 /* WebViewBridge.swift in Sources */,
+				10000000000000000000010A /* AccountListViewController.swift in Sources */,
+				10000000000000000000010B /* GameWebViewController.swift in Sources */,
+				10000000000000000000010C /* MultiWebViewController.swift in Sources */,
+				10000000000000000000010D /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100000000000000000000A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		100000000000000000000A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SnowKingIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowking.assistant;
+				PRODUCT_NAME = SnowKing;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		100000000000000000000A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SnowKingIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowking.assistant;
+				PRODUCT_NAME = SnowKing;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000901 /* Build configuration list for PBXNativeTarget "SnowKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000A03 /* Debug */,
+				100000000000000000000A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000902 /* Build configuration list for PBXProject "SnowKingIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000A01 /* Debug */,
+				100000000000000000000A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000801 /* Project object */;
+}
